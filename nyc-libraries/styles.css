@@ -20,12 +20,15 @@ p {
     text-align: center;
     font-size: 14px;
     margin-top: -10px;
+    max-width: 700px;
 }
 
 h1 {
     color: #000000;
     font-family: "EB Garamond";
     margin-bottom: -10px;
+    font-size: 48px;
+    max-width: 800px;
 }
 
 h2, h3, h4, h5, h6 { 
@@ -102,4 +105,17 @@ a {
 
 #last {
     margin-bottom: 80px;
+}
+
+#weird {
+    margin-top: 40px;
+}
+
+.small {
+    max-width: 660px;
+}
+
+h4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
