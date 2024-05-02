@@ -5,17 +5,44 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Hind:wght@300;400;500;600;700&family=Libre+Barcode+39&family=Libre+Barcode+39+Text&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <meta charset="utf-8" />
     </head>
     <body>
-        <p id="name">Jesse Hogan</p>
-        <h1>Lorem Ipsum</h1>
-        <div class="divider"></div>
+        <h1 class="title">The Brooklyn Branch Library System:</h1>
+        <h2 class="title">Tracing New York City's Past & Present Investment in People and Information</h2>
+        <img class = "cover" src = "images/bplcentrallibrary.jpeg">
+        <p class = "caption">Brooklyn Central Library, 1941, from The Library of Congress</p>
+        <p id = "name">by <a href="https://jessejhogan.com">Jesse Hogan</a></p>
+        <p class = "date">March 2, 2024</p>
+        <h2 class = "barcode">Background</h2>
+        <!-- <div class = "divider"></div> -->
+        <p>Although I frequented my local library growing up, it wasn’t until my senior year of high school that I fell in love with libraries. Aiming to pass time on a road trip, I remember stumbling across <em>99% Invisible</em>’s <a href="https://99percentinvisible.org/episode/palaces-for-the-people/">Palaces for the People</a> episode and pressing play. Those 50 minutes of listening opened my eyes to the ways in which libraries have morphed social service provision across the United States, a history that began with Andrew Carnegie and continues to this day.</p>
+        <p>More than four years later, approaching the end of my final semester of college, it’s perhaps unsurprising that I have returned to libraries (intellectually, but also physically, I suppose, before I am invariably revoked of my access to Brown’s vast collections). I have been thinking a lot in particular about New York City’s Library system, first because I have spent a fair amount of time in the city over the past year, but also because I have been studying <a href="https://www.marblefairbanks.com/project-process/a-new-library-typology/">Greenpoint’s 2020 public library redesign</a> for my senior capstone in Architecture.</p>
+        <p>Amid my research, I could not help but become interested in Brooklyn’s system at large: where has it come from and where is it headed?</p>
+        <h3 class = "barcode">The Findings</h3>
+        <!-- <p>New York City is composed of three major independent library systems, NYPL, which services Manhattan, the Bronx, and Staten Island, QPL, which services Queens, and BPL, which services Brooklyn.</p>
+        <p>The reason for this independence dates back to Carnegie funding equity as well as New York City merger history, but regardless, studying one borough still speaks volumes.</p> -->
+        <p>Publicly available data on <a href="https://opendata.cityofnewyork.us/">OpenDataNYC</a>, the <a href="https://www.bklynlibrary.org/">Brooklyn Public Library</a> (BPL) website, and the <a href="https://www.imls.gov/">Institute of Museum and Library Services</a> (IMLS) suggest that Greenpoint’s recent library investment is not standalone in Brooklyn.</p>
+        <img class = "big" src = "images/bplbranchplotpersqft_ANIMATED.gif"> 
+        <p>According to the American Library Association, New York is home to one of the <a href="https://libguides.ala.org/librarystatistics/largest-public-libs">best-funded library systems</a> in the US. That funding originally emerged through Carnegie philanthropy, but investment in the wake of world war and more modern federal and municipal sourcing have also contributed to new project builds and renovations over time.</p>
+        <p>It is interesting to see that libraries built in the past decade have accumulated more space, even in a crowded city run by an administration that has continuously sparked controversy in the past year for proposed library <a href="https://council.nyc.gov/shahana-hanif/2024/03/26/public-libraries-demand-reversal-of-proposed-cuts/#:~:text=The%20city's%20public%20libraries%20are,fiscal%20year's%20%24109%20billion%20budget.">budget cuts</a> and <a href="https://www.nypl.org/press/statement-brooklyn-public-library-new-york-public-library-and-queens-public-library-potential">hours slashing</a>.</p>
+        <p>How has that additional space actually been utilized, though?</p>
+        <p>Greenpoint’s library redesign is fascinating in its unique allocation of floor area towards environmental education and programming, including lab spaces, a large community event space, and reading rooms and collections for each age range, in addition to its more traditional library programming space.</p>
+        <img src="images/IMG_1210.jpeg">
+        <p class = "caption">I was surprised to see only 3 rows of bookshelves when I visited the library in March (perhaps I am overly used to university stacks).</p>
+        <img class = "big" src = "images/itemplotFINAL-01.png">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <img src = "images/rhode_island.png"> 
-        <p>Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Enim lobortis scelerisque fermentum dui. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Et tortor at risus viverra adipiscing at. In cursus turpis massa tincidunt dui ut ornare lectus. Platea dictumst quisque sagittis purus sit. Praesent tristique magna sit amet purus gravida quis blandit. A lacus vestibulum sed arcu non odio euismod lacinia at. Sem viverra aliquet eget sit amet tellus cras adipiscing. At erat pellentesque adipiscing commodo elit at imperdiet. Aliquet enim tortor at auctor urna nunc id cursus. Suspendisse ultrices gravida dictum fusce ut placerat orci.</p>
-        <h2>About this story</h2>
-        <img class = "bigger" src = "images/piglet.png">
-        <p>Here's a <a href="https://www.brown.edu/">link</a>.</p>
+        <img src = "images/mapplotFINALanimated.gif">
+        <h4 class = "barcode">Conclusion</h4>
+        <p>Months ago I had the chance to interview Karen Fairbanks, one of the architects behind the Greenpoint Library redesign. She underscored what the data here shows.</p>
+        <p class = "quote">“Generally, academic and public libraries have been in the process of flipping the proportion of space for collections more towards people.”</p>
+        <p class = "quote2">- Karen Fairbanks</p>
+        <p>When Andrew Carnegie invested in libraries in New York and beyond at the turn of the 20th century, he called them "Palaces for the People."</p>
+        <p id = "last">In an increasingly digital world, it is encouraging to see space being continue to be carved out for people and information to be in community.</p>
+        <!-- <div id = "myTooltip">_</div>  --> 
+        <!-- <div id = "myChart"></div> --> 
     </body>
+    <script src="scripts/scatter.js"></script>
 </html>

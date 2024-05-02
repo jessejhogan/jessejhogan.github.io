@@ -1,6 +1,6 @@
-img, p, h1, h2, .divider {
+img, p, h1, h2, h3, h4, h5, h6, caption, .divider, #myChart, #myTooltip {
 	width: 100%;
-	max-width: 600px;
+	max-width: 700px;
     margin-left: auto;
 	margin-right: auto;
 }
@@ -12,28 +12,94 @@ img {
 
 p {
 	font-size: 18px;
-	line-height: 1.4;
-    font-family: "Crimson Text";
+	line-height: 1.5;
+    font-family: "EB Garamond";
 }
 
-h1, h2 { 
-    font-family: "Roboto";
+.caption {
+    text-align: center;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+h1 {
+    color: #000000;
+    font-family: "EB Garamond";
+    margin-bottom: -10px;
+}
+
+h2, h3, h4, h5, h6 { 
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    color: #4262AD;
+    font-size: 18px;
 }
     
 .divider {
-    height: 2px;
-    background-color: #0868ac;
+    height: 10px;
+    background-color: #4262AD;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.barcode {
+    font-family: "Libre Barcode 39 Text";
+    color: #4262AD;
+    font-size: 40px;
+}
     
 #name {
-    font-family: "Crimson Text";
-    font-style: italic;
+    font-family: "Source Sans 3";
     font-weight: 400;
-    font-size: 32px;
+    font-size: 18px;
+}
+
+.date {
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -20px;
+    color: #BEBEBE;
 }
 
 .bigger {
 	max-width: 1000px;
+}
+
+.big {
+    max-width: 800px;
+}
+
+.cover {
+    max-width: 750px;
+}
+
+.title {
+    text-align: center;
+}
+
+a {
+    color: #4262AD;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 800;
+    font-family: "EB Garamond";
+    color: #4262AD;
+    max-width: 700px;
+    text-align: center;
+}
+
+.quote2 {
+    font-family: "EB Garamond";
+    color: #4262AD;
+    max-width: 700px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+#last {
+    margin-bottom: 80px;
 }
