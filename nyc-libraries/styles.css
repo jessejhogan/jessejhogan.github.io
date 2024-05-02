@@ -85,6 +85,10 @@ a {
     color: #4262AD;
 }
 
+#gray-link {
+    color: #BEBEBE;
+}
+
 .quote {
     font-size: 36px;
     font-weight: 800;
@@ -105,6 +109,7 @@ a {
 
 #last {
     margin-bottom: 80px;
+    margin-top: 40px;
 }
 
 #weird {
